@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "fixo": [
+        {
+          "id": 1,
+          "name": "Ilimitado"
+        },
+        {
+          "id": 2,
+          "name": "Fixo Brasil"
+        }
+      ]
+    },
+    {
+      "TV": [
+        {
+          "id": 1,
+          "name": "Ultimate HD"
+        },
+        {
+          "id": 2,
+          "name": "Full HD"
+        }
+      ]
+    },
+    {
+      "Internet": [
+        {
+          "id": 1,
+          "name": "100MB"
+        },
+        {
+          "id": 2,
+          "name": "200MB"
+        },
+        {
+          "id": 3,
+          "name": "300MB"
+        }
+      ]
+    }
+  ]
+}
