@@ -3,15 +3,15 @@
 
     <nav class="container">
 
-    <a href="/"><img alt="Carrinho de compras" id="logo" src="../assets/logo.jpg" /> </a>
+    <a href="/"><img alt="Carrinho de compras" id="logo" src="@/assets/logo.jpg" /> </a>
 
-    <img v-on:click="openMenu" alt="Abrir menu" id="menu-button" src="../assets/button-logo.jpg" />
+    <img v-on:click="openMenu" alt="Abrir menu" id="menu-button" src="@/assets/button-logo.jpg" />
 
     <div v-on:click="closeMenu" id="menu-overlay" v-if="menuActive"/> 
 
     <div id="menu-items" :class="{active:menuActive}" >
 
-      <img alt="Carrinho de compras" id="menu-logo" src="../assets/logo.jpg" />
+      <img alt="Carrinho de compras" id="menu-logo" src="@/assets/logo.jpg" />
 
       <ul>
         <li><a href="/">Home</a></li>

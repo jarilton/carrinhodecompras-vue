@@ -6,7 +6,7 @@
     <div class="text-top"> <b>Clique abaixo para acessar os planos</b></div>
 
     <a href="/produtos" target="_blank">
-      <img src="../assets/button-acesso.jpg" alt="ver planos" id="planos-internet">
+      <img src="@/assets/button-acesso.jpg" alt="ver planos" id="planos-internet">
     </a>
 
     <div class="text-bottom">jamalnet.com.br</div>
