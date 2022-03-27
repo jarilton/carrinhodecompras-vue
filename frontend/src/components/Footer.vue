@@ -15,6 +15,8 @@
 <style scoped>
 
   footer {
+    position: absolute;
+    bottom: 0;
     background-color: var(--color-background-nav);
     width: 100%;
     height: 60px;

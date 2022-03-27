@@ -14,10 +14,10 @@
       <img alt="Carrinho de compras" id="menu-logo" src="@/assets/logo.jpg" />
 
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/produtos">Produtos</a></li>
-        <li><a href="/sobre">Sobre</a></li>
-        <li><a href="/contato">Contato</a></li>
+        <li><a><router-link to="/">Home</router-link></a></li>
+        <li><a><router-link to="/produtos">Produtos</router-link></a></li>
+        <li><a><router-link to="/carrinho">Carrinho</router-link></a></li>
+        <li><a><router-link to="/contato">Contato</router-link></a></li>
       </ul>
     </div>
 
