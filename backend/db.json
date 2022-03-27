@@ -1,44 +1,60 @@
 {
   "produtos": [
     {
-      "fixo": [
-        {
-          "id": 1,
-          "name": "Ilimitado"
-        },
-        {
-          "id": 2,
-          "name": "Fixo Brasil"
-        }
-      ]
+      "id": 1,
+      "name": "Ilimitado",
+      "thumb": "https://http2.mlstatic.com/D_NQ_NP_2X_980902-MLA32569078472_102019-V.webp",
+      "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mercadolivre.com.br%2Ftelefone-fixo-intelbras-tok-facil-preto%2Fp%2FMLB8982617&psig=AOvVaw2IBqxOVWWu74kT3pOXsMhK&ust=1648491616254000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOC8uPzz5vYCFQAAAAAdAAAAABAD"
     },
     {
-      "TV": [
-        {
-          "id": 1,
-          "name": "Ultimate HD"
-        },
-        {
-          "id": 2,
-          "name": "Full HD"
-        }
-      ]
+      "id": 2,
+      "name": "Fixo Brasil",
+      "thumb": "https://http2.mlstatic.com/D_NQ_NP_2X_980902-MLA32569078472_102019-V.webp",
+      "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mercadolivre.com.br%2Ftelefone-fixo-intelbras-tok-facil-preto%2Fp%2FMLB8982617&psig=AOvVaw2IBqxOVWWu74kT3pOXsMhK&ust=1648491616254000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOC8uPzz5vYCFQAAAAAdAAAAABAD"
     },
     {
-      "Internet": [
-        {
-          "id": 1,
-          "name": "100MB"
-        },
-        {
-          "id": 2,
-          "name": "200MB"
-        },
-        {
-          "id": 3,
-          "name": "300MB"
-        }
-      ]
+      "id": 3,
+      "name": "Ultimate HD",
+      "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbHA-ZGUo6kfZ92Bde_dtNirkc2IiTQqoeg&usqp=CAU",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbHA-ZGUo6kfZ92Bde_dtNirkc2IiTQqoeg&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "name": "Full HD",
+      "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbHA-ZGUo6kfZ92Bde_dtNirkc2IiTQqoeg&usqp=CAU",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbHA-ZGUo6kfZ92Bde_dtNirkc2IiTQqoeg&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "name": "100MB",
+      "thumb": "https://celebrity.fm/wp-content/uploads/2021/05/100-mbps.png",
+      "link": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcelebrity.fm%2Fwp-content%2Fuploads%2F2021%2F05%2F100-mbps.png&imgrefurl=https%3A%2F%2Fcelebrity.fm%2Fis-100-mbps-fast-enough-for-streaming%2F&tbnid=HCdRYisaq7PM7M&vet=12ahUKEwi5-tGd9eb2AhVPM7kGHZ2mCgwQMygAegQIARA-..i&docid=fAr0KEhkOs37iM&w=400&h=405&q=100%20mbps%20celebrity&ved=2ahUKEwi5-tGd9eb2AhVPM7kGHZ2mCgwQMygAegQIARA-"
+    },
+    {
+      "id": 6,
+      "name": "200MB",
+      "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVuALZwQiGY-i-Zv0Km_Kf1JJ51nwW7GBz5w&usqp=CAU",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVuALZwQiGY-i-Zv0Km_Kf1JJ51nwW7GBz5w&usqp=CAU"
+    },
+    {
+      "id": 7,
+      "name": "300MB",
+      "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ6-ulSwRHBqkM91W4LrMmkgCTSZdtloeIzA&usqp=CAU",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVuALZwQiGY-i-Zv0Km_Kf1JJ51nwW7GBz5w&usqp=CAU"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Fixo"
+    },
+    {
+      "id": 2,
+      "name": "TV"
+    },
+    {
+      "id": 3,
+      "name": "Internet"
     }
   ]
 }

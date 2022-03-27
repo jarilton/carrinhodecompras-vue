@@ -34,7 +34,13 @@ a:hover {
 
 main {
   width: 100%;
-  height: calc(100vh - 120px);
+  min-height: calc(100vh - 120px);
   display: flex;
   flex-direction: column;
+  margin-bottom: 70px;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 30px;
 }
