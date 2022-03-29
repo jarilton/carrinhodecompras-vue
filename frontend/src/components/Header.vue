@@ -15,7 +15,6 @@
 
       <ul>
         <li><a><router-link to="/">Home</router-link></a></li>
-        <li><a><router-link to="/produtos">Produtos</router-link></a></li>
         <li><a><router-link to="/carrinho">Carrinho</router-link></a></li>
         <li><a><router-link to="/contato">Contato</router-link></a></li>
       </ul>

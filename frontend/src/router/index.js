@@ -8,19 +8,14 @@ const routes = [
     component: Home
   },
   {
-    path: '/produtos',
-    name: 'Produtos',
-    component: () => import(/* webpackChuckName: "Produtos" */ '@/views/Produtos.vue') 
+    path: '/cart',
+    name: 'Cart',
+    component: () => import(/* webpackChuckName: "Carrinho" */ '@/views/Cart.vue') 
   }, 
   {
-    path: '/carrinho',
-    name: 'Carrinho',
-    component: () => import(/* webpackChuckName: "Carrinho" */ '@/views/Carrinho.vue') 
-  }, 
-  {
-    path: '/contato',
-    name: 'Contato',
-    component: () => import(/* webpackChuckName: "Contato" */ '@/views/Contato.vue') 
+    path: '/contacts',
+    name: 'Contact',
+    component: () => import(/* webpackChuckName: "Contato" */ '@/views/Contacts.vue') 
   }
 ];
 
