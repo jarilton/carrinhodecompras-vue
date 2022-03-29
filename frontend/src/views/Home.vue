@@ -1,9 +1,10 @@
 <template>
   <main>
+    <h1 class="title"> Jamal Net Fibra</h1>
 
     <div class="text-top"> Sejam bem vindos a melhor operadora de <b>internet, tv e telefone</b> do brasil</div>
 
-    <div class="text-top"> <b>Segue os planos abaixo!</b></div>
+    <div class="text-top"> <b>Aqui você encontra os melhores planos!!</b></div>
 
     <ProductDescriptionDrawer 
       :product="product"
@@ -25,8 +26,8 @@
 
 <script>
   import api from '@/services/api.js'
-  import ProductSummaryCard from '@/components/produtos/ProductSummaryCard.vue'
-  import ProductDescriptionDrawer from '@/components/produtos/ProductDescriptionDrawer.vue'
+  import ProductSummaryCard from '@/components/products/ProductSummaryCard.vue'
+  import ProductDescriptionDrawer from '@/components/products/ProductDescriptionDrawer.vue'
 
 export default {
   name: 'Home',
@@ -66,13 +67,18 @@ export default {
 <style scoped>
 
   main {
-   margin-top: 20px;
+    align-items: center;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
   }
 
   .text-top {
     margin: 10px;
     font-size: 22px;
-    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -85,8 +91,9 @@ export default {
   }
 
   @media (min-width: 700px) {
-    #planos-internet {
-      width: 370px;
+    main {
+      width: 100%;
+      
     }
   }
 

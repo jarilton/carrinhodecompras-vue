@@ -1,55 +1,49 @@
 <template>
-  <main>
-    <section class="container">
-      <h1>Carrinho</h1>
+  <div class="cart">
+    <h1>Carrinho</h1>
 
-      <section class="carrinhos">
-        <div class="carrinho" v-for="(carrinho, id) in carrinhos" :key="id">
-            <a :href="carrinho.link" target="_blank">
-            <img :src="carrinho.thumb" :alt="carrinho.name">
-            <div  class="carrinho-name">{{ carrinho.name }}</div>
-          </a> 
-        </div>
-      </section>
-    </section>
-  </main>
+    <CartItemCard 
+      v-for="product in products"
+      :key="product.id"
+      :product="product"
+    />
+
+    <CartSummaryPaymentCard />
+
+  </div>
 </template>
 
 <script>
-  import api from '@/services/api.js'
+import CartItemCard from '@/components/cart/CartItemCard.vue'
+import CartSummaryPaymentCard from '@/components/cart/CartSummaryPaymentCard.vue'
 
 export default {
-  name: "Carrinhos",
-  data() {
-    return {
-      carrinhos: []
-    }
+  components: {
+    CartItemCard, CartSummaryPaymentCard
   },
-  mounted() {
-    api.get("/carrinho")
-      .then(response => {
-        /* console.log(response.data); */
-        this.carrinhos = response.data;
-      })
+  computed: {
+    products() {
+      return this.$store.getters.cartItems
+    }
   }
 }
 </script>
 
-<style scoped>
-
-main{
-  align-items: center;
-}
-
-.carrinhos {
+<style>
+.cart {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
 }
 
-.carrinho {
-  width: 80%;
-  margin-bottom: 30px;
+@media (min-width: 700px) {
+  .cart {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 </style>

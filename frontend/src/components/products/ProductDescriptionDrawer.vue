@@ -13,11 +13,10 @@
     <div v-if="product" class="product-details">
       <h3 class="text-center">{{ product.name }}</h3>
       <p class="description">{{ product.description }}</p>
-      <h3 class="text-center">${{ product.price.toFixed(2) }}</h3>
+      <h3 class="text-center">R${{ product.price.toFixed(2) }}</h3>
 
       <div class="cart-total" v-if="product_total">
-        <h3>Carrinho</h3>
-        <h4>{{ product_total }}</h4>
+        <h3>Carrinho: {{ product_total }}</h3>
       </div>
 
       <div class="button-container">
@@ -106,26 +105,60 @@ export default {
     justify-content: center;
     flex-direction: column;
 
+
     p.description {
+      text-align: center;
       padding: 20px;
       line-height: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .text-center{
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .cart-total{
+      margin-bottom: 15px;
+      text-align: center;
     }
 
     .button-container {
       button{
-        width: 150px;
+        width: 90px;
         border: none;
-        padding: 10px;
+        padding: 15px;
         border-radius: 5px;
-        margin: 0 5px 50px 5px;
+        margin-left: 40px;
+        background-color: var(--color-background-nav);
+        color: var(--color-text-light);
         cursor: pointer;
+
+        &.remove {
+          background-color: red;
+        }
       }
     }
   }
 
-  @media (min-width: 500px) {
+  @media (min-width: 700px) {
     .drawer {
+      margin-left: 140px;
       width: 450px;
+    }
+
+    .button-container {
+      button{
+        justify-content: space-between;
+        
+        &.remove {
+          margin: 60px;
+        }
+      }
+    }
+
+    .text-center{
+      margin-top: 20px;
     }
   }
 
