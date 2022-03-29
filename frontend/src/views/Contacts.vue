@@ -5,7 +5,6 @@
     <div class="text-top">
       <h2>Email: jariltonpereira02@hotmail.com</h2>
       <h2>GitHub: https://github.com/jarilton</h2>
-      <h2>Telefone whatsApp: (16) 99348-7729</h2>
     </div>
   </main>
 </template>
@@ -20,20 +19,32 @@ export default {
 
 .container {
   width: 100vw;
-  height: 100vh;
-}
-
-.text-top {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
+}
+
+.title {
+  margin-left: 130px;;
+}
+
+.text-top {
   margin-top: 70px;
+  margin: 20px;
 }
 
 h2 {
   margin-bottom: 20px;
 }
 
+@media (min-width: 700px) {
+  .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+}
 </style>

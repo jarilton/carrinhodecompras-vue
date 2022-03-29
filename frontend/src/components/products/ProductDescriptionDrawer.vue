@@ -143,7 +143,6 @@ export default {
 
   @media (min-width: 700px) {
     .drawer {
-      margin-left: 140px;
       width: 450px;
     }
 

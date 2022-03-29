@@ -3,7 +3,7 @@
     <h3>Total do Carrinho: R${{ cart_total.toFixed(2) }}</h3>
 
     <button class="view-product-button">
-      Pagar com cartão de crédito
+      Pagar 
     </button>
   </div>
 </template>
