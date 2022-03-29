@@ -1,10 +1,10 @@
 # carrinhodecompras-vue
 
-     1 - git clone https://github.com/jarilton/carrinhodecompras-vue.git  -> para baixar o projeto na máquina.   /    
-     2 - instalar as bibliotecas de cada pasta (backend e frontend)    ->   instalar com "yarn" ou "npm i"   /     
-     3 - yarn start     ->    Backend      /     
-     4 - yarn dev    ->    Frontend      /
-     5 - ter instalado o docker na máquina    /    
+     1 - git clone https://github.com/jarilton/carrinhodecompras-vue.git  -> para baixar o projeto na máquina.   
+     2 - instalar as bibliotecas de cada pasta (backend e frontend)    ->   instalar com "yarn" ou "npm i"    
+     3 - yarn start     ->    Backend      
+     4 - yarn dev    ->    Frontend     
+     5 - ter instalado o docker na máquina    
      6 - docker-compose up --build     ->  para rodar a aplicação com o Docker
 
 Imagens do projeto rodando.
