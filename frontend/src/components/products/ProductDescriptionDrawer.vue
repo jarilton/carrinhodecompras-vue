@@ -24,6 +24,7 @@
         <button class="add" @click="addToCart()">Adicionar</button>
       </div>
     </div>
+    
   </div>
 
 </template>

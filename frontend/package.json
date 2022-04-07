@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "serve": "docker-compose up",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "axios": "^0.26.1",
@@ -17,7 +18,28 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.12.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.6.0",
+    "prettier": "^2.6.2",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/no-multiple-template-root": "off"
+    }
   }
 }
