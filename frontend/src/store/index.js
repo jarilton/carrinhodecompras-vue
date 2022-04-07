@@ -28,6 +28,15 @@ export default createStore({
   },
   mutations: {
     addToCart(state, product) {
+
+      if(product.category !== 'Internet') {
+        let filter =  state.cart.filter(i => i.category === "Internet")
+        if(filter.length === 0) {
+          alert('Você precisa adicionar pelo menos 1 plano de internet!')
+          return 0;
+        }
+      }
+      
       let item = state.cart.find(i => i.id === product.id)
 
       if(item) {
@@ -61,7 +70,7 @@ export default createStore({
     }
   },
   actions: {
-
+    
   },
   modules: {
 
