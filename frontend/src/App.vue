@@ -2,25 +2,26 @@
   <div id="app">
     <Header />
     <router-view />
-    <Footer />
+    <client-only>
+      <Footer />
+    </client-only>
   </div>
 </template>
 
 <script>
-
 import './styles/global.css'
-import Header from'./components/Header.vue'
-import Footer from'./components/Footer.vue'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Footer
+    Footer,
   },
   mounted() {
     this.$store.commit('updateCartFromLocalStorage')
-  }
+  },
 }
 </script>
 
