@@ -10,26 +10,23 @@
 Imagens do projeto rodando.
 
  ** Desktop **
-![image](https://user-images.githubusercontent.com/59670578/160718934-d394d588-a32a-4734-99fa-7ff60f75eb72.png)
 
-![image](https://user-images.githubusercontent.com/59670578/160719651-c35696e2-d4c4-44ce-8096-0ea55b16bc47.png)
+![Captura de tela de 2022-07-29 01-54-03](https://user-images.githubusercontent.com/59670578/181686058-3f460039-50e3-40e7-9beb-6c9df742e5f3.png)
 
 ![image](https://user-images.githubusercontent.com/59670578/160719733-bf8c2351-fcb8-45e0-84a5-986e5eda5c74.png)
 
 ![image](https://user-images.githubusercontent.com/59670578/160721650-20f287b1-19f7-4bbe-9fd6-d63acc2bc61c.png)
 
 
-
 ** mobile **
 
-
-![image](https://user-images.githubusercontent.com/59670578/160719010-aa67731f-3964-474e-b511-e85644e3f8ba.png)
+![Captura de tela de 2022-07-29 01-54-58](https://user-images.githubusercontent.com/59670578/181686124-2bfa57c6-5758-403e-a1a1-391f17886f27.png)
 
 ![image](https://user-images.githubusercontent.com/59670578/160721850-f5c856e2-1e16-4d0d-a2e8-b4a7aabafb99.png)
 
-![image](https://user-images.githubusercontent.com/59670578/160721909-4a58e1d9-df23-49eb-96d0-9749077802f4.png)
+![Captura de tela de 2022-07-29 01-55-18](https://user-images.githubusercontent.com/59670578/181686201-924543f4-1af7-4451-a69b-31509a206f12.png)
 
-![image](https://user-images.githubusercontent.com/59670578/160721965-81d4de9c-81f6-421f-ae38-56e04206ee42.png)
+![Captura de tela de 2022-07-29 01-54-40](https://user-images.githubusercontent.com/59670578/181686233-5f294597-6411-4835-ba61-013820f37410.png)
 
 ![image](https://user-images.githubusercontent.com/59670578/160722220-c28c577b-dc2d-447e-bf02-4d79fd7a2178.png)
 
