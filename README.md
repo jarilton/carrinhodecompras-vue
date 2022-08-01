@@ -13,7 +13,7 @@ Imagens do projeto rodando.
 
 ![Captura de tela de 2022-07-29 01-54-03](https://user-images.githubusercontent.com/59670578/181686058-3f460039-50e3-40e7-9beb-6c9df742e5f3.png)
 
-![Captura de tela de 2022-07-31 23-01-49](https://user-images.githubusercontent.com/59670578/182058425-f95268a4-0713-4cd6-a80f-3c18bc2f0637.png)
+![Captura de tela de 2022-07-31 23-08-43](https://user-images.githubusercontent.com/59670578/182058921-22cd6c7c-1ebe-4cef-9a5c-8520c19bd3e2.png)
 
 ![image](https://user-images.githubusercontent.com/59670578/160721650-20f287b1-19f7-4bbe-9fd6-d63acc2bc61c.png)
 
