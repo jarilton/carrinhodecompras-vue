@@ -1,25 +1,27 @@
 <template>
-  <div
-    class="drawer-background"
-    :class="{ show: active }"
-    v-on:click="$emit('close-product-drawer')"
-  />
+  <div>
+    <div
+      class="drawer-background"
+      :class="{ show: active }"
+      v-on:click="$emit('close-product-drawer')"
+    />
 
-  <div class="drawer" :class="{ show: active }">
-    <div class="drawer-close" @click="$emit('close-product-drawer')">X</div>
+    <div class="drawer" :class="{ show: active }">
+      <div class="drawer-close" @click="$emit('close-product-drawer')">X</div>
 
-    <div v-if="product" class="product-details">
-      <h3 class="text-center">{{ product.name }}</h3>
-      <p class="description">{{ product.description }}</p>
-      <h3 class="text-center">R${{ product.price.toFixed(2) }}</h3>
+      <div v-if="product" class="product-details">
+        <h3 class="text-center">{{ product.name }}</h3>
+        <p class="description">{{ product.description }}</p>
+        <h3 class="text-center">R${{ product.price.toFixed(2) }}</h3>
 
-      <div class="cart-total" v-if="product_total">
-        <h3>Carrinho: {{ product_total }}</h3>
-      </div>
+        <div class="cart-total" v-if="product_total">
+          <h3>Carrinho: {{ product_total }}</h3>
+        </div>
 
-      <div class="button-container">
-        <button class="remove" @click="removeFromCart()">Remover</button>
-        <button class="add" @click="addToCart()">Adicionar</button>
+        <div class="button-container">
+          <button class="remove" @click="removeFromCart()">Remover</button>
+          <button class="add" @click="addToCart()">Adicionar</button>
+        </div>
       </div>
     </div>
   </div>
@@ -27,24 +29,24 @@
 
 <script>
 export default {
-  props: ["product", "active"],
+  props: ['product', 'active'],
   methods: {
     addToCart() {
-      this.$store.commit("addToCart", this.product);
+      this.$store.commit('addToCart', this.product)
     },
     removeFromCart() {
-      this.$store.commit("removeFromCart", this.product);
+      this.$store.commit('removeFromCart', this.product)
     },
   },
   computed: {
     product_total() {
-      return this.$store.getters.productQuantity(this.product);
+      return this.$store.getters.productQuantity(this.product)
     },
   },
-};
+}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .drawer-background {
   width: 100%;
   height: 100vh;

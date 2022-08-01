@@ -1,5 +1,5 @@
 <template>
-  <div class="cart-item-card">
+  <div class="cart-summary">
     <h3>Total do Carrinho: R${{ cart_total.toFixed(2) }}</h3>
 
     <button class="view-product-button">
@@ -18,8 +18,8 @@ export default {
 }
 </script>
 
-<style>
-  .cart-item-card {
+<style scoped>
+  .cart-summary {
     display: flex;
     flex-direction: column;
     align-items: center;

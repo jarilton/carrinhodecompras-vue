@@ -1,15 +1,18 @@
 <template>
   <div class="cart">
-    <h1>Carrinho</h1>
+    <h1 class="title">Carrinho</h1>
 
-    <CartItemCard 
-      v-for="product in products"
-      :key="product.id"
-      :product="product"
-    />
+    <div class="cart-cards">
+      <CartItemCard
+        v-for="product in products"
+        :key="product.id"
+        :product="product"
+      />
+    </div>
 
-    <CartSummaryPaymentCard />
-
+    <div class="cart-total-price">
+      <CartSummaryPaymentCard />
+    </div>
   </div>
 </template>
 
@@ -19,17 +22,18 @@ import CartSummaryPaymentCard from '@/components/cart/CartSummaryPaymentCard.vue
 
 export default {
   components: {
-    CartItemCard, CartSummaryPaymentCard
+    CartItemCard,
+    CartSummaryPaymentCard,
   },
   computed: {
     products() {
       return this.$store.getters.cartItems
-    }
-  }
+    },
+  },
 }
 </script>
 
-<style>
+<style scoped>
 .cart {
   display: flex;
   align-items: center;
@@ -38,12 +42,19 @@ export default {
   margin-bottom: 100px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .cart {
-    flex-direction: row;
-    align-items: center;
+    display: block;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  .cart-cards {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px;
   }
 }
-
 </style>
