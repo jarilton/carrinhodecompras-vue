@@ -1,5 +1,14 @@
 # carrinhodecompras-vue
 
+     Link abaixo do projeto em produção:
+     
+     https://carrinhodecompras-vue.vercel.app/
+     
+     Para carregar os produtos tem que rodar o json do projeto.
+     
+     
+     Passo a passo para rodar o projeto na máquina.
+     
      1 - git clone https://github.com/jarilton/carrinhodecompras-vue.git  -> para baixar o projeto na máquina.   
      2 - instalar as bibliotecas de cada pasta (backend e frontend)    ->   instalar com "yarn" ou "npm i"    
      3 - yarn start     ->    Backend      
